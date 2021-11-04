@@ -54,4 +54,14 @@ public class Computer {
     public void setMadein(String madein) {
         this.madein = madein;
     }
+
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "serial=" + serial +
+                ", manufacture='" + manufacture + '\'' +
+                ", ram=" + ram +
+                ", madein='" + madein + '\'' +
+                '}';
+    }
 }
